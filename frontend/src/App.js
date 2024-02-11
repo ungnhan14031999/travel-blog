@@ -1,7 +1,7 @@
 import "bootstrap/dist/css/bootstrap.min.css";
 import { Routes, Route } from "react-router-dom";
 
-import Menu from "./components/Menu";
+import NavBar from "./components/NavBar";
 import Home from "./pages/Home";
 import Blog from "./pages/Blog";
 import Destinations from "./pages/Destinations";
@@ -10,7 +10,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <Menu />
+        <NavBar />
       </header>
       <Routes>
         <Route path="/" element={<Home />} />

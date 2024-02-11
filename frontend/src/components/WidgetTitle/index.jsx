@@ -1,5 +1,4 @@
 import React from 'react';
-import '../WidgetTitle/WidgetTitle.scss'
 
 function WidgetTitle(props) {
     const titleName = props.titleName;
