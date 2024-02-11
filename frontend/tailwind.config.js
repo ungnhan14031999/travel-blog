@@ -3,10 +3,15 @@
 module.exports = {
   content: ["./src/**/*.{js,jsx,ts,tsx}"],
   theme: {
+    inset: {
+      "6px": "6px",
+      // full: "100%",
+    },
     colors: {
       "first-color": "#fff",
       "second-color": "#40A2E3",
       "third-color": "#B9B4C7",
+      "cushion-color": "#eee",
       "black-color": "rgb(0 0 0)",
     },
     extend: {
