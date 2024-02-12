@@ -15,23 +15,24 @@ function MagazineBlock(props) {
                         <img src={imgBlog} className='w-100 pb-2' />
                     </Link>
                     <Link to="#">
-                        <h3 className='inline text-black-color hover:text-second-color transition ease-in-out delay-50'>Easy to use Theme Options</h3>
+                        <h3 className='inline text-2xl font-bold text-black-color hover:text-second-color transition ease-in-out delay-50'>Easy to use Theme Options</h3>
                     </Link>
-                    <div className='d-flex justify-content-between'>
+                    <div className='flex text-sm pt-2 font-medium justify-between'>
                         <Link to="#">
-                            <p className='inline text-black-color hover:text-second-color transition ease-in-out delay-50'>DECEMBER 17, 2015</p>
+                            <p className='inline text-third-color hover:text-second-color transition ease-in-out delay-50'>DECEMBER 17, 2015</p>
                         </Link>
                         <Link to="#">
-                            <p className='inline text-black-color hover:text-second-color transition ease-in-out delay-50'>Thomas</p>
+                            <p className='inline text-third-color hover:text-second-color transition ease-in-out delay-50'>Thomas</p>
                         </Link>
                     </div>
                     <div>
-                        <p className='pt-2'>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.[…]</p>
+                        <p className='py-2'>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.[…]</p>
                         <Link to="#">
-                            <h6 className='inline text-second-color hover:text-third-color transition ease-in-out delay-50 '>READ MORE</h6>
+                            <h6 className='inline font-bold text-second-color hover:text-third-color transition ease-in-out delay-50 '>READ MORE</h6>
                         </Link>
                     </div>
                 </div>
+
                 <div className='witget-magazine__right'>
                     <div className='flex pb-2'>
                         <Link to="#" className='w-2/5'>

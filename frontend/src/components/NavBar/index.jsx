@@ -4,13 +4,13 @@ import { NavLink } from "react-router-dom";
 export default function NavBar() {
   // console.log(isActive);
   return (
-    <nav className='h-14 d-flex items-center'>
-      <div className='container d-flex justify-content-between'>
+    <nav className='h-14 flex items-center border-solid border-b-2 border-second-color'>
+      <div className='container mx-auto flex justify-between'>
         <NavLink to="/">
           <h3 className="text-2xl font-black text-second-color m-0">Michi Travel</h3>
         </NavLink>
 
-        <div className="d-flex items-center">
+        <div className="flex items-center">
           <NavLink 
             className={({ isActive, isPending }) =>
               isActive

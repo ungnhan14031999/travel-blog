@@ -10,19 +10,19 @@ function Communicate() {
         <div className='communicate-block'>
             <WidgetTitle titleName="Magazine Widget" />
 
-            <div className='d-flex'>
+            <div className='flex'>
                 <Link to="#">
-                    <div className='mr-1 w-12 h-12 bg-second-color d-flex items-center justify-content-center hover:bg-third-color transition delay-100'>
+                    <div className='mr-1 w-12 h-12 bg-second-color flex items-center justify-center hover:bg-third-color transition delay-100'>
                         <FontAwesomeIcon icon={faFacebook} className='text-first-color text-2xl' /> 
                     </div>
                 </Link>
                 <Link to="#">
-                    <div className='mr-1 w-12 h-12 bg-second-color d-flex items-center justify-content-center hover:bg-third-color transition delay-100'>
+                    <div className='mr-1 w-12 h-12 bg-second-color flex items-center justify-center hover:bg-third-color transition delay-100'>
                         <FontAwesomeIcon icon={faTwitter} className='text-first-color text-2xl' />
                     </div>
                 </Link>
                 <Link to="">
-                    <div className='mr-1 w-12 h-12 bg-second-color d-flex items-center justify-content-center hover:bg-third-color transition delay-100'>
+                    <div className='mr-1 w-12 h-12 bg-second-color flex items-center justify-center hover:bg-third-color transition delay-100'>
                         <FontAwesomeIcon icon={faInstagram} className='text-first-color text-2xl' />
                     </div>
                 </Link>
