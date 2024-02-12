@@ -1,25 +1,28 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import WidgetTitle from '../../../../components/WidgetTitle';
 
 import imgBlog from '../../../../assets/image/magazine.jpg'
 
 function MagazineBlock(props) {
     return (
         <div className='block-magazine'>
+            <WidgetTitle titleName="Magazine Widget" />
+
             <div className='grid grid-cols-2 gap-4'>
                 <div className="block-magazine__left">
                     <Link to="#">
                         <img src={imgBlog} className='w-100 pb-2' />
                     </Link>
                     <Link to="#">
-                        <h3 className='inline text-thirt-color hover:text-second-color transition ease-in-out delay-50'>Easy to use Theme Options</h3>
+                        <h3 className='inline text-black-color hover:text-second-color transition ease-in-out delay-50'>Easy to use Theme Options</h3>
                     </Link>
                     <div className='d-flex justify-content-between'>
                         <Link to="#">
-                            <p className='inline text-thirt-color hover:text-second-color transition ease-in-out delay-50'>DECEMBER 17, 2015</p>
+                            <p className='inline text-black-color hover:text-second-color transition ease-in-out delay-50'>DECEMBER 17, 2015</p>
                         </Link>
                         <Link to="#">
-                            <p className='inline text-thirt-color hover:text-second-color transition ease-in-out delay-50'>Thomas</p>
+                            <p className='inline text-black-color hover:text-second-color transition ease-in-out delay-50'>Thomas</p>
                         </Link>
                     </div>
                     <div>
@@ -35,7 +38,7 @@ function MagazineBlock(props) {
                             <img src={imgBlog} />
                         </Link>
                         <div className='pl-3'>
-                            <div><Link to="#"><h5 className='inline text-lg hover:text-second-color font-semibold transition ease-in-out delay-50'>Magazine Posts Widgets</h5></Link></div>
+                            <div><Link to="#"><h5 className='inline text-lg text-black-color hover:text-second-color font-semibold transition ease-in-out delay-50'>Magazine Posts Widgets</h5></Link></div>
                             <div><Link to="#"><p className='inline text-xs text-third-color hover:text-black-color font-semibold transition ease-in-out delay-50'>NOVEMBER 28, 2015</p></Link></div>
                         </div>
                     </div>
@@ -44,7 +47,7 @@ function MagazineBlock(props) {
                             <img src={imgBlog} />
                         </Link>
                         <div className='pl-3'>
-                            <div><Link to="#"><h5 className='inline text-lg hover:text-second-color font-semibold transition ease-in-out delay-50'>Magazine Posts Widgets</h5></Link></div>
+                            <div><Link to="#"><h5 className='inline text-lg text-black-color hover:text-second-color font-semibold transition ease-in-out delay-50'>Magazine Posts Widgets</h5></Link></div>
                             <div><Link to="#"><p className='inline text-xs text-third-color hover:text-black-color font-semibold transition ease-in-out delay-50'>NOVEMBER 28, 2015</p></Link></div>
                         </div>
                     </div>
@@ -53,7 +56,7 @@ function MagazineBlock(props) {
                             <img src={imgBlog} />
                         </Link>
                         <div className='pl-3'>
-                            <div><Link to="#"><h5 className='inline text-lg hover:text-second-color font-semibold transition ease-in-out delay-50'>Magazine Posts Widgets</h5></Link></div>
+                            <div><Link to="#"><h5 className='inline text-lg text-black-color hover:text-second-color font-semibold transition ease-in-out delay-50'>Magazine Posts Widgets</h5></Link></div>
                             <div><Link to="#"><p className='inline text-xs text-third-color hover:text-black-color font-semibold transition ease-in-out delay-50'>NOVEMBER 28, 2015</p></Link></div>
                         </div>
                     </div>
@@ -62,7 +65,7 @@ function MagazineBlock(props) {
                             <img src={imgBlog} />
                         </Link>
                         <div className='pl-3'>
-                            <div><Link to="#"><h5 className='inline text-lg hover:text-second-color font-semibold transition ease-in-out delay-50'>Magazine Posts Widgets</h5></Link></div>
+                            <div><Link to="#"><h5 className='inline text-lg text-black-color hover:text-second-color font-semibold transition ease-in-out delay-50'>Magazine Posts Widgets</h5></Link></div>
                             <div><Link to="#"><p className='inline text-xs text-third-color hover:text-black-color font-semibold transition ease-in-out delay-50'>NOVEMBER 28, 2015</p></Link></div>
                         </div>
                     </div>
