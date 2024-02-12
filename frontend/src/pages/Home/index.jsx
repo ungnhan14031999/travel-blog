@@ -2,6 +2,7 @@ import React from 'react';
 import BannerCarousels from '../../components/BannerCarousels';
 import BlockMagazine from './components/MagazineBlock';
 import Commuticate from '../../components/Communicate'
+import PopularPosts from '../../components/PopularPosts';
 
 function Home() {
     return (
@@ -16,7 +17,8 @@ function Home() {
 
 
                     <div>
-                        <Commuticate />
+                        <div><Commuticate /></div>
+                        <div className='mt-10'><PopularPosts /></div>
                     </div>
                 </div>
             </div>    

@@ -8,7 +8,7 @@ import WidgetTitle from '../../components/WidgetTitle';
 function Communicate() {
     return (
         <div className='communicate-block'>
-            <WidgetTitle titleName="Magazine Widget" />
+            <WidgetTitle titleName="Stay in Touch" />
 
             <div className='flex'>
                 <Link to="#">
